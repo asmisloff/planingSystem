@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Map&lt;Long, RoleData&gt;" version="4">
+  <OBJECT>
+    <ID name="Map&lt;Long, RoleData&gt;" mc="Standard.DataType" uid="2ad4b9b0-bc45-421b-891a-fc42a32d4709"/>
+    <PID name="IdentityMap" mc="Standard.Class" uid="e8c7e81c-5a7b-4436-8700-1ede46be0dec"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Map<Long, RoleData>]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

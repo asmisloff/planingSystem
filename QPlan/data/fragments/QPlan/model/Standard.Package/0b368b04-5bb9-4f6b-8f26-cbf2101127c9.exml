@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="model" version="4">
+  <OBJECT>
+    <ID name="model" mc="Standard.Package" uid="0b368b04-5bb9-4f6b-8f26-cbf2101127c9"/>
+    <PID name="qplan" mc="Standard.Package" uid="49591172-d138-4016-90c1-26600f40098f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Task" mc="Standard.Class" uid="8d501d72-4076-433f-820a-773677abf6c1"/>
+        <COMPID name="Employee" mc="Standard.Class" uid="8e48215a-682b-4858-bac6-68c003e84ea5"/>
+        <COMPID name="Role" mc="Standard.Class" uid="140b36b1-df14-49ba-aec0-0bbb68abddcc"/>
+        <COMPID name="LogEntry" mc="Standard.Class" uid="7a34098b-c369-4e37-a22f-3270c8249f18"/>
+        <COMPID name="GanttChartData" mc="Standard.Class" uid="afa22883-6860-45bb-95b7-fde62a8f7964"/>
+        <COMPID name="ProjectNetworkData" mc="Standard.Class" uid="c3d5722c-b1a7-401a-b68f-e6e5a3376f1c"/>
+        <COMPID name="TaskTreeIterator" mc="Standard.Class" uid="62d0ed37-b5db-431d-89d0-4cf1704e5ba5"/>
+        <COMPID name="TaskEvent" mc="Standard.Class" uid="4ae108ee-c6c3-4588-93b7-16c452af8c82"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

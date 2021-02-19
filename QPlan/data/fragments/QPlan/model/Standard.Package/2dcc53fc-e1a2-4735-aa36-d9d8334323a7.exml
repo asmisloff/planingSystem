@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="repository" version="4">
+  <OBJECT>
+    <ID name="repository" mc="Standard.Package" uid="2dcc53fc-e1a2-4735-aa36-d9d8334323a7"/>
+    <PID name="qplan" mc="Standard.Package" uid="49591172-d138-4016-90c1-26600f40098f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[repository]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TaskRepository" mc="Standard.Interface" uid="9aa5df6c-a8d8-44ff-9b62-99827c2b3e8b"/>
+        <COMPID name="EmployeeRepository" mc="Standard.Interface" uid="48ab5898-a617-4665-b99d-ed50518b75fa"/>
+        <COMPID name="RoleRepository" mc="Standard.Interface" uid="c21e4651-7488-4a6f-91e7-2dc2b82a037c"/>
+        <COMPID name="LogEntryRepository" mc="Standard.Interface" uid="a8a32c70-b37b-4911-b5d0-7bfa38558ba2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

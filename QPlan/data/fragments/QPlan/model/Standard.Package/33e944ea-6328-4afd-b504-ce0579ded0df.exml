@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="service" version="4">
+  <OBJECT>
+    <ID name="service" mc="Standard.Package" uid="33e944ea-6328-4afd-b504-ce0579ded0df"/>
+    <PID name="qplan" mc="Standard.Package" uid="49591172-d138-4016-90c1-26600f40098f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[service]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="TaskService" mc="Standard.Class" uid="4b9cacdd-8b00-4030-8780-43e1d779f4f2"/>
+        <COMPID name="EmployeeService" mc="Standard.Class" uid="75c4d2dd-ad9a-466d-a8e7-bdcf7615ca37"/>
+        <COMPID name="LogEntryService" mc="Standard.Class" uid="857fcc04-d4ac-42d2-87ab-a27ebd58abbb"/>
+        <COMPID name="RegistrationService" mc="Standard.Class" uid="5355b23f-912a-48e1-8447-8e6ff4a2a1f5"/>
+        <COMPID name="PresentationService" mc="Standard.Class" uid="62b37eb0-4065-4256-919d-17dacedff179"/>
+        <COMPID name="NotificationService" mc="Standard.Class" uid="4053133c-b87f-4580-ad96-6482bfafe8f5"/>
+        <COMPID name="RoleService" mc="Standard.Class" uid="106cbcc8-1f90-4af0-b941-764088d661e6"/>
+        <COMPID name="SecurityService" mc="Standard.Class" uid="e24f57bb-b079-4367-b80e-9edc575de839"/>
+        <COMPID name="UrlPermission" mc="Standard.Class" uid="fdd6efe3-b0a6-4bbe-962b-19afdb4ac297"/>
+        <COMPID name="TaskEventListener" mc="Standard.Class" uid="a6c5f53a-58c1-445c-b6ce-15ac0ffad92b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

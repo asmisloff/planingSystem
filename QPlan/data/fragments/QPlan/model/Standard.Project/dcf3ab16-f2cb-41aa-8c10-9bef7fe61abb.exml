@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="QPlan" version="4">
+  <OBJECT>
+    <ID name="QPlan" mc="Standard.Project" uid="dcf3ab16-f2cb-41aa-8c10-9bef7fe61abb"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[QPlan]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Model">
+        <COMPID name="qplan" mc="Standard.Package" uid="49591172-d138-4016-90c1-26600f40098f"/>
+      </COMP>
+      <COMP relation="DiagramRoot">
+        <COMPID name="QPlan" mc="Infrastructure.DiagramSet" uid="a44cf176-57f0-4e41-a963-f89461161ed5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

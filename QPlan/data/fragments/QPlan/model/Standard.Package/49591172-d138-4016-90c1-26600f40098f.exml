@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="qplan" version="4">
+  <OBJECT>
+    <ID name="qplan" mc="Standard.Package" uid="49591172-d138-4016-90c1-26600f40098f"/>
+    <PID name="QPlan" mc="Standard.Project" uid="dcf3ab16-f2cb-41aa-8c10-9bef7fe61abb"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[qplan]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="d99bec36-0fa8-4054-a087-403cc0ba6aa1"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="model" mc="Standard.Package" uid="0b368b04-5bb9-4f6b-8f26-cbf2101127c9"/>
+        <COMPID name="repository" mc="Standard.Package" uid="2dcc53fc-e1a2-4735-aa36-d9d8334323a7"/>
+        <COMPID name="service" mc="Standard.Package" uid="33e944ea-6328-4afd-b504-ce0579ded0df"/>
+        <COMPID name="controller" mc="Standard.Package" uid="97b0baca-3ec4-42ca-9546-4553ebac8a26"/>
+        <COMPID name="UrlRouter" mc="Standard.Class" uid="f89bfaa0-9317-4d8f-925f-8e3128b93ace"/>
+        <COMPID name="datamapping" mc="Standard.Package" uid="8de5bd37-7366-4e94-bac7-9740c49b1611"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="qplan Class diagram" mc="Standard.ClassDiagram" uid="15435766-c607-4418-8151-2c2ccb357948"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
